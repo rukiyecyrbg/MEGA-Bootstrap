@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap 4 Website Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .fakeimg {
+        height: 400px;
+        background: #aaa;
+      }
+      .background {
+        background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M10 15a5 5 0 110-10 5 5 0 010 10z'  stroke-width='1' stroke='hsla(259, 0%, 93%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+      }
+      .footer {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron text-center background" style="margin-bottom: 0">
+      <h1>SAVAŞAN İHA</h1>
+      <p>YARIŞMA ŞARTNAMESİ!</p>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">TEKNOFEST</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://teknofest.org/tr/competitions/competition/33"
+              >HAKKINDA</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://teknofest.org/tr/contact/"
+              >İLETİŞİM</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://teknofest.org/tr/yarismalar/savasan-iha-yarismasi/"
+              >GÖRSELLER</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container" style="margin-top: 30px">
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="img/tekno-logo.png"
+            alt="Me"
+            class="img-fluid rounded-circle"
+          />
+          <br />
+          <br />
+          <img src="img/1-min.jpg" alt="Me" class="img-fluid rounded-circle" />
+          <br />
+          <br />
+          <img src="img/2.jpg" alt="Me" class="img-fluid rounded-circle" />
+          <br />
+          <br />
+          <img src="img/3.jpg" alt="Me" class="img-fluid rounded-circle" />
+          <br />
+          <br />
+          <img
+            src="img/telefon.png"
+            alt="Me"
+            class="img-fluid rounded-circle"
+          />
+
+          <!-- <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul> 
+          <hr class="d-sm-none" /> -->
+        </div>
+        <div class="col-sm-8">
+          <h2>SAVAŞAN İHA</h2>
+          <!-- <h5>Title description, Dec 7, 2017</h5> -->
+
+          <img class="img-thumbnail" src="img/savasan-iha1.png" alt="" />
+          <p>AMAÇ</p>
+          <p>
+            Teknolojideki gelişmelere paralel olarak İnsansız Hava Araçları
+            (İHA), faaliyet alanlarını gün geçtikçe geliştirmekte, git gide daha
+            çok otonomi kazanmaktadır. Yüksek otonomi gerektiren ve dünya
+            çapında sıcak araştırma alanlarından biri olan bir diğer uygulama
+            alanı ise İHA’lar ile savaş jetlerinin yaptığı it dalaşı (dog fight)
+            yapabilme kabiliyeti kazandırmaktır. Hali hazırda dünya çapında
+            gözlem faaliyetlerini büyük oranda insanlı platformlardan almış olan
+            İHA’lar, yüksek çevresel farkındalık, karar verme yeteneği ve
+            dinamik ortamlarda planlama yeteneği gibi konularda insan zekâsı
+            seviyesine yaklaşamadığı için, savaş uçakları arası hava – hava
+            muharebe manevraları ancak insanlı uçaklar ile
+            gerçekleştirilebilmektedir. Savaşan İnsansız Hava Aracı (İHA)
+            yarışmasının temel amacı, İHA’lar arası bu tarz bir hava – hava
+            muharebe senaryosunu kontrollü bir ortamda oluşturup ileride bu
+            konuda başarı elde edebilecek gençleri ilgili alanlara yönlendirmek,
+            deneyim kazanıp becerilerini geliştirmelerini sağlamaktır.
+          </p>
+          <br />
+          <h2>Vuruş Tespiti</h2>
+          <img class="img-thumbnail" src="img/vurus-alani.png" alt="" />
+          <p>
+            Atış, kilitlenmeyi gerçekleştiren İHA’nın rakip İHA’nın görüntüsünü
+            kendi kamera görüntüsü içine almasıyla sağlanır. Kilitlenmenin
+            gerçekleşmesi için kamera görüntüsünün merkezindeki bir kare
+            bölgenin içinde hareketli rakip İHA’nın en az 4 saniye boyunca
+            tutulması gerekmektedir. Danışma kurulunca anlaşmalı olarak
+            yapıldığı tespit edilen kilitlenmeler değerlendirmeye alınmayacak
+            olup söz konusu takımlar yarışmadan ihraç edileceklerdir. Bu kare
+            alanının büyüklüğü Şekil 1 de gösterildiği gibidir. Aynı zamanda
+            rakip İHA’nın görüntüsü ekran görüntüsünün yatay ve dikey
+            eksenlerinden en az birinde, en az %5’ini kapsamalıdır (bakınız
+            Şekil1). Takımlar görüntü işleme algoritmalarını geliştirirken paket
+            gönderme için kabul ettikleri sınırın tam %5 olması tavsiye edilmez.
+            Algoritmalar belli bir toleransta çalışmaktadır, örneğin video
+            görüntüsünün aslında %4.5’ini kaplayan bir objeyi, geliştirilen
+            algoritma kilitlenme olarak değerlendirip sunucuya paket
+            gönderebilir. Bu durum, daha sonra yapılan hakem incelemesinde
+            hatalı kilitlenme paketi olarak değerlendirilecektir. Buna karşı
+            daha toleranslı bir algoritma geliştirilmesi, paket gönderme
+            limitinin %6 veya daha üstü olması tavsiye edilir. Sunucuya
+            gönderilen paket içerisinde belirtilen sürenin tamamında kilitlenme
+            şartı olan %5 değerini sağlaması gereklidir.Donanım veya haberleşme
+            kaynaklı frame kayıpları oluşabilmektedir. Frame kayıpları veya
+            hatalı çizilen kilitlenme dörtgenleri için %5’lik bir ‘eksik veya
+            hatalı frame toleransı’ vardır. 4 saniyelik bir video için %5'lik
+            yani 200 ms'ye kadar tolerans mevcuttur. ‘eksik veya hatalı frame
+            toleransı’ videonun başlangıcı veya bitişinde geçerli değildir.
+          </p>
+          <h2>Kamikaze İHA Görevii</h2>
+          <img class="img-thumbnail" src="img/kamikaze.png" alt="" />
+          <p>
+            Savaşan İHA Yarışması içerisinde Savaşan İHA görevinin yanında
+            “Kamikaze İHA” görevi de bulunacaktır. Büyük ödülü almak isteyen
+            yarışmacı takımların Savaşan İHA göreviyle (havadaki herhangi uçağa
+            otonom kitlenme görevi) beraber en az bir müsabaka turunda da
+            Kamikaze görevini de tamamlaması gerekmektedir. Kamikaze İHA görevi,
+            Savaşan İHA göreviyle aynı müsabaka turunda yapılabileceği gibi
+            farklı turlarda da gerçekleştirilebilecektir. Bir müsabaka turu için
+            havaya kalkan araçlar, tur boyunca hem birbirlerine kilitlenebilir
+            hem de kamikaze görevini yerine getirir. Bu iki görev birbirinden
+            ayrı yarışma kategorisi değildir. Müsabaka turu süresi boyunca
+            takımlar isterlerse yer hedeflerine isterlerse hava hedeflerine yani
+            diğer uçaklara kilitlenmeye çalışabilir. Yarışma alanı içerisinde 1
+            adet yer hedefi bulunacaktır ve bu hedefin konumu, sunucu üzerinden
+            bütün yarışmacılara gönderilecektir. Hedef konumunda yer düzleminde
+            QR kod bulunacaktır. Bu kod kamikaze görevi sırasında okunacaktır.
+            Kamikaze İHA görevini yapmayı hedefleyen takımlardan aynı tur
+            içerisinde hava araçlarının otonom kalkış, otonom uçuş, otonom iniş
+            görevleriyle birlikte yerde bulunan sabit hedeflere otonom
+            kitlenmeleri beklenecektir. Yarışmacı takımlardan fiziki bir çarpma
+            beklenmemektedir. Vuruş tespiti QR kodun okunup, içerisinde bulunan
+            şifrenin sunucuya gönderilmesiyle sağlanır. Her müsabaka turunda bu
+            şifre yenilenmektedir. Hedefin yeri hep sabit kalmaktadır. Takımlar
+            bir müsabakada kamikaze görevinden sadece 1 kere puan alabilirler.
+            Hava araçlarında kitlenme için kullanılan kamera ile kamikaze görevi
+            için kullanılan kamera aynı olmak zorundadır. Hatalı vuruş
+            tespitleri burada da geçerlidir. QR kodun boyutları 2.5 x 2.5 m
+            boyutlarında olacaktır. Kodun, düz uçuş sırasında okunmasını
+            engellemek amacıyla dört tarafı 45 derecelik açılı plakalar ile
+            kapatılacaktır. Plakaların yüksekliği 2.5m olacaktır. Kamikaze göre
+            yapılırken uçuş irtifa limitinin altında inildiği durumda alan
+            dışına çıkış olarak değerlendirilecektir. Alan dışına çıkış ile
+            ilgili durumlar “Güvenlik İhtiyaçları” başlığında açıklanmıştır. QR
+            kodun içerdiği mesaj, dalışın bitiminden en geç 2 saniye sonrasına
+            kadar gönderilmesi gerekmektedir. QR mesajı, yarışma sonunda teslim
+            edilen video üzerinden kontrol edilecektir. Kamikaze sırasında kaza
+            kırım yaşayan takımlar otonom kamikaze kitlenme görevini kaza
+            kırımdan önce başarabilseler dahi, otonom kitlenme puanı alacaktır
+            ancak otonom iniş yapamadığı için kamikaze görevini tamamlamış
+            olarak kabul edilmeyecektir.
+          </p>
+          <h2>Görev Puanlaması (70%)</h2>
+          <img class="img-thumbnail" src="img/puanlama.png" alt="" />
+          <p>
+            Tüm müsabaka puanlandırmaları toplamında, yarışmacıların aldıkları
+            ceza puanları -400'ü geçtiği durumlar için puanları -400 olarak,
+            yarışmacıların bir müsabakada alınabilecek ceza puanı -300'ü geçtiği
+            durumlar için puanları -300 olarak sınırlanacaktır. Yarışma
+            sonucunda toplam görev puanı maksimum olan takımın puanı 100 puan
+            olarak ölçeklendirilerek diğer takımların toplam görev puanı da aynı
+            ölçekleme oranı kullanılarak ölçeklendirilecektir.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="qrCodeArea">
+            <div class="qrMiddle">
+        <div class="qrMiddleTop">
+          <p>
+            TEKNOFEST Mobil Uygulaması İçin<br />
+          </p>
+        </div>
+        <div class="qrMiddleBottom">
+          <a
+            href="https://apps.apple.com/tr/app/teknofest-2022/id1624118336?l=tr"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.teknofest.org/media/upload/userFormUpload/qr-app-store_N6Epw.png"
+              alt=""
+              loading="lazy"
+            />
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=org.teknofest.app"
+            target="_blank"
+          >
+            <img
+              src="https://cdn.teknofest.org/media/upload/userFormUpload/qr-play-store_AUsdz.png"
+              alt=""
+              loading="lazy"
+            />
+          </a>
+        </div>
+      </div>
+      
+    </div>
+
+    <div
+      class="jumbotron text-center"
+      style="
+        margin-bottom: 0;
+        height: 300px;
+        background-color: rgb(128, 128, 190);
+      "
+    >
+      <footer id="footer" class="bg-color-primary border-top-0 mt-0">
+        <div
+          class="container pt-1 d-flex align-items-center justify-content-center"
+        >
+          <div class="row py-3 text-center text-lg-left d-flex">
+            <div class="col-12 col-lg-2">
+              <img
+                src="https://cdn.teknofest.org/media/upload/userFormUpload/teknofest-footer-white_wyMQA.svg"
+                alt="TEKNOFEST | AYAKLARI YERE BASMAYAN FESTİVAL"
+                class="img-fluid mb-3 footerLogo"
+              />
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div
+                class="feature-box feature-box-style-2 float-lg-right d-block d-lg-flex mb-4 mb-lg-0"
+              >
+                <div class="feature-box-icon">
+                  <i class="icon-location-pin icons text-color-light"></i>
+                </div>
+                <div class="feature-box-info pl-1">
+                  <h5
+                    class="mb-0 text-color-light font-weight-bold"
+                    style="font-size: 14px !important"
+                  >
+                    ADRES
+                  </h5>
+                  <p class="text-color-light font-weight-semibold mb-0">
+                    Ünalan Mahallesi Ayazma Caddesi No:3 Üsküdar/İstanbul
+                  </p>
+                </div>
+              </div>
+              <!-- REVOLUTION JS FILES -->
+            </div>
+            
+            <div class="col-md-6 col-lg-2">
+              <div
+                class="feature-box feature-box-style-2 float-lg-right d-block d-lg-flex mb-4 mb-lg-0 text-nowrap"
+              >
+                <div class="feature-box-icon">
+                  <i class="icon-call-out icons text-color-light"></i>
+                </div>
+                <div class="feature-box-info pl-1">
+                  <h5
+                    class="mb-0 text-color-light font-weight-semibold"
+                    style="font-size: 10px !important"
+                  >
+                    TELEFON
+                  </h5>
+                  <a
+                    href="tel:+90 212 501 94 34"
+                    class="text-color-light font-weight-semibold text-decoration-none"
+                    >+90 212 501 94 34</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="feature-box feature-box-style-2 float-lg-right d-block d-lg-flex"
+              >
+                <div class="feature-box-icon">
+                  <i class="icon-share icons text-color-light"></i>
+                </div>
+                
+              
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright footer-copyright-style-2 bg-color-primary">
+          <div class="container">
+            <div class="row py-3 align-items-center">
+              <div class="col-lg-8 text-center text-lg-left mb-2 mb-lg-0">
+                <nav id="sub-menu">
+                  <ul>
+                    <li>
+                      <i class="fas fa-angle-right"></i>
+                      <a href="/tr/contact/" class="ml-1 text-decoration-none"
+                        >İLETİŞİM</a
+                      >
+                    </li>
+
+                    <li>
+                      <i class="fas fa-angle-right"></i>
+                      <a
+                        href="/tr/regulators/gdpr/"
+                        class="ml-1 text-decoration-none"
+                        >KVKK</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div
+                class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end mb-4 mb-lg-0 pt-4 pt-lg-0"
+              >
+                <p class="mb-1 opacity-7 font-weight-light">
+                  2023 TEKNOFEST | Tüm hakları saklıdır. ©RUKİYE ÇAYIRBAĞ
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
